@@ -3058,40 +3058,37 @@ html body {
     unicode-range: U+4E00-9FFF
 }
 
+/* 한화 폰트 대신 시스템 폰트 사용 */
 @font-face {
     font-family: "HanwhaGothic";
-    src: url("/assets/fonts/HanwhaGothicROTFA.woff2") format("woff2"),url("/assets/fonts/HanwhaGothicROTFA.woff") format("woff");
+    src: local("Arial"), local("Helvetica"), local("sans-serif");
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
-    unicode-range: U+0000-4DFF,U+A000-10FFFF
+    font-display: swap
 }
 
 @font-face {
     font-family: "HanwhaGothic";
-    src: url("/assets/fonts/HanwhaGothicLOTFA.woff2") format("woff2"),url("/assets/fonts/HanwhaGothicLOTFA.woff") format("woff");
+    src: local("Arial"), local("Helvetica"), local("sans-serif");
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
-    unicode-range: U+0000-4DFF,U+A000-10FFFF
+    font-display: swap
 }
 
 @font-face {
     font-family: "Hanwha";
-    src: url("/assets/fonts/Hanwha_R_OTFA.woff2") format("woff2"),url("/assets/fonts/Hanwha_R_OTFA.woff") format("woff");
+    src: local("Arial"), local("Helvetica"), local("sans-serif");
     font-weight: 400;
     font-style: normal;
-    font-display: swap;
-    unicode-range: U+0000-4DFF,U+A000-10FFFF
+    font-display: swap
 }
 
 @font-face {
     font-family: "Hanwha";
-    src: url("/assets/fonts/Hanwha_L_OTFA.woff2") format("woff2"),url("/assets/fonts/Hanwha_L_OTFA.woff") format("woff");
+    src: local("Arial"), local("Helvetica"), local("sans-serif");
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
-    unicode-range: U+0000-4DFF,U+A000-10FFFF
+    font-display: swap
 }
 
 .font-hanwha {
