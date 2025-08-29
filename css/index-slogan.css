@@ -368,7 +368,6 @@ body {
   flex-basis: auto;
   overflow: visible;
   box-sizing: border-box;
-  width: 1475px;
   height: 0px;
   padding: 0px;
 }
@@ -393,7 +392,7 @@ body {
   translate: none;
   rotate: none;
   scale: none;
-  transform: translate(0%, 19.5436%);
+  /* transform: translate(0%, 19.5436%); */
 }
 
 /* __bg-wrapper 기본 스타일 */
